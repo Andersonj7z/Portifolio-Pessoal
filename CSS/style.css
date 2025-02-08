@@ -5,11 +5,11 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: red !important;
 }
 
 header{
-    background-color: #370707;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 1em;
@@ -21,14 +21,14 @@ header{
 }
 
 footer{
-    background-color: #370707;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 1em;
 }
 
 .conteudo{
-    background-color: white !important;
+    background-color: black !important;
     padding: 2em !important;
     margin-top: 1em !important;
     border-radius: 30px !important;
@@ -37,7 +37,7 @@ footer{
 
 a{
     text-decoration: none !important;
-    color: black !important;
+    color: white !important;
 }
 
 .principal{
