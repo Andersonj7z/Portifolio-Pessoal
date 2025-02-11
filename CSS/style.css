@@ -1,88 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Arial, sans-serif;
-    background-color: red !important;
+    background-color: #f4f4f9 !important;
 }
 
-header{
-    background-color: black;
+header {
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 1em;
 }
 
-.img-perfil{
-    width: 10%;
-    border-radius: 90%;
-}
-
-footer{
-    background-color: black;
+footer {
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 1em;
 }
-
-.conteudo{
-    background-color: black !important;
+/* Cards*/
+.conteudo {
+    background-color: #333 !important;
     padding: 2em !important;
     margin-top: 1em !important;
     border-radius: 30px !important;
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none !important;
-    color: white !important;
+    color: #007bff !important;
 }
-
-.principal{
+/* Ajustar tamanho e margem dos cards */
+.principal {
     text-align: center;
-    margin-left: 25% !important;
-    margin-right: 25% !important;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
     margin-top: 1% !important;
     margin-bottom: 15% !important;
 }
 
-.img-icone{
+/* imagem de perfil*/
+.img-perfil {
+    width: 10% !important;
+    border-radius: 90% !important;
+}
+/*largura dos ícones */
+.img-icone {
     width: 100% !important;
 }
 
-.txt-icone{
+.txt-icone {
     font-size: 200% !important;
+    color: white !important;
 }
 
-@media (min-width: 200px) and (max-width: 768px){
-    .img-icone{
-        width: 250% !important;
+/* Responsividade */
+@media (min-width: 200px) and (max-width: 768px) {
+    /* Ajustar tamanho e margem dos cards */
+    .principal {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        margin-top: 5% !important;
+        margin-bottom: 5% !important;
     }
 
-    .txt-icone{
-        font-size: 100% !important;
+    /*largura dos ícones */
+    .img-icone {
+        width: 100% !important; 
     }
 
-    .conteudo{
-        background-color: white !important;
-        padding: 1em !important;
-        margin-top: 2em !important;
-        border-radius: 10px !important;
-        width: 130%;
+    /*tamanho do texto */
+    .txt-icone {
+        font-size: 150% !important;
     }
 
-    .principal{
-        text-align: center;
-        margin-left: 10% !important;
-        margin-right: 25% !important;
-        margin-top: 1% !important;
-        margin-bottom: 50% !important;
+    /* Cards*/
+    .conteudo {
+        background-color: #333 !important;
+        padding: 1.5em !important;
+        margin-top: 1em !important;
+        border-radius: 15px !important;
+        width: 100% !important;
     }
 
-    .img-perfil{
-        width: 30% !important;
+    /* imagem de perfil*/
+    .img-perfil {
+        width: 50% !important;
         border-radius: 50% !important;
     }
 }
