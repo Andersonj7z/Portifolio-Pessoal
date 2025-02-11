@@ -63,10 +63,10 @@ a {
 @media (min-width: 200px) and (max-width: 768px) {
     /* Ajustar tamanho e margem dos cards */
     .principal {
-        margin-left: 10% !important;
+        margin-left: 14% !important;
         margin-right: 5% !important;
         margin-top: 5% !important;
-        margin-bottom: 10% !important;
+        margin-bottom: 15% !important;
     }
 
     /*largura dos ícones */
@@ -91,7 +91,7 @@ a {
 
     /* imagem de perfil*/
     .img-perfil {
-        width: 50% !important;
+        width: 20% !important;
         border-radius: 50% !important;
     }
 }
