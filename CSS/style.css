@@ -77,6 +77,7 @@ a {
     /*tamanho do texto */
     .txt-icone {
         font-size: 150% !important;
+        padding-right: 1em !important;
     }
 
     /* Cards*/
