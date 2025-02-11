@@ -56,6 +56,7 @@ a {
 .txt-icone {
     font-size: 200% !important;
     color: white !important;
+    padding-right: 5em;
 }
 
 /* Responsividade */
