@@ -62,10 +62,10 @@ a {
 @media (min-width: 200px) and (max-width: 768px) {
     /* Ajustar tamanho e margem dos cards */
     .principal {
-        margin-left: 5% !important;
+        margin-left: 10% !important;
         margin-right: 5% !important;
         margin-top: 5% !important;
-        margin-bottom: 5% !important;
+        margin-bottom: 10% !important;
     }
 
     /*largura dos ícones */
