@@ -6,6 +6,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9 !important;
+    background-image: url('/IMG/fundo3.jpg') !important;
+    background-size: 100% !important;
 }
 
 header {
@@ -71,7 +73,7 @@ a {
 
     /*largura dos ícones */
     .img-icone {
-        width: 100% !important; 
+        width: 250% !important; 
     }
 
     /*tamanho do texto */
